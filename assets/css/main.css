@@ -2820,6 +2820,7 @@ button:disabled,
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  flex-direction: column;
   border-top: 0 !important;
 }
 
@@ -2854,7 +2855,7 @@ button:disabled,
   min-height: 23em;
   overflow: hidden;
   position: relative;
-  width: 40%;
+  width: 100%;
 }
 
 .tiles article .image {
@@ -2930,7 +2931,7 @@ button:disabled,
 
 .tiles article:nth-child(4n - 1),
 .tiles article:nth-child(4n - 2) {
-  width: 60%;
+  width: 100%;
 }
 
 .tiles article:nth-child(6n - 5):before {
